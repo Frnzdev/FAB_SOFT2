@@ -133,16 +133,30 @@ table th, td{
 }
 
 
-.cont-img{
+
+.cont-all{
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+td img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imgs{
     align-items: center;
     width: 171px;
     height: 96.38px;
+}
+
+tbody{
+    padding: 10px;
+}
+
+table{
+    padding: 10px;
 }
 
 
