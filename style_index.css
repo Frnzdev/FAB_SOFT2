@@ -5,7 +5,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif, Arial;
     scroll-behavior: smooth;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 
@@ -15,25 +15,25 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    height: 140px;
     position: relative;
     font-size: 20px;
     display: flex;
     background-color: #FAFBF9;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 
 }
 
 header img {
-    width: 258px;
-    height: 196.8px;
+    width: 160px;
+    height: 156.8px;
 }
 
 header nav {
     display: flex;
-    justify-content: space-around; 
-    width: 50%; 
+    justify-content: space-around;
+    width: 50%;
 }
 
 header nav ul {
@@ -54,9 +54,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    padding: 5px;
-    border-radius: 4px;
-    background-color: #cacaca;
+    font-size: 21px;
+    text-decoration: underline;
 }
 
 .content {
@@ -69,10 +68,10 @@ header nav ul li a:hover {
     width: 690px;
     height: 430px;
     display: flex;
-    margin: 4rem 0rem;
+    margin: 2rem 0rem;
     align-items: center;
     vertical-align: middle;
-    
+
     background: #1E395E;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -104,17 +103,25 @@ header nav ul li a:hover {
     color: white;
     font-size: 24px;
     background-color: #0E2442;
-    border: 1px solid #0E2442; 
+    border: 1px solid #0E2442;
     border-radius: 8px;
     padding: 10px;
     line-height: 100px;
+    transition: 0.2s;
+
+    &&:hover {
+        border: none;
+        background-color: #FAFBF9;
+        color: #0E244C;
+        padding: 13px;
+    }
 }
 
 hr {
     border-color: #060f1b;
 }
 
-#imoveis{
+/* #imoveis{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,14 +156,65 @@ td img{
     align-items: center;
     width: 171px;
     height: 96.38px;
+} */
+
+#imoveis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0rem;
 }
 
-tbody{
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    /* Adiciona espaçamento entre as células */
+    width: 80%;
+    max-width: 900px;
+}
+
+td {
     padding: 10px;
+    width: 150px;
+    height: 290px;
+    text-align: center;
+    border-radius: 8px;
+    /* Bordas arredondadas para as células */
+    background-color: #FAFBF9;
+    /* Cor de fundo clara */
 }
 
-table{
+img {
+    width: 220px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    /* Bordas arredondadas nas imagens */
+    /* Espaço abaixo da imagem */
+}
+
+.text {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    /* Um pequeno espaço entre o texto e a célula */
+}
+
+.saiba-mais{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #0E2442;
+    border-radius: 8px;
     padding: 10px;
-}
+    line-height: 100px;
+    transition: 0.2s;
 
+    &&:hover {
+        border: none;
+        background-color: #1C3A59;
+        padding: 13px;
+    }
+    
+}
 
