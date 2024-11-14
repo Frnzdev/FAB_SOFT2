@@ -26,12 +26,15 @@ header {
 
 }
 
-c
-
 header nav {
     display: flex;
     justify-content: space-around;
     width: 50%;
+}
+
+header img {
+    width: 160px;
+    height: 156.8px;
 }
 
 header nav ul {
@@ -46,10 +49,12 @@ header nav li {
 }
 
 header nav ul li a {
+    padding: 0px 20px 0px 20px;
     text-decoration: none;
     transition: 0.5s;
     color: #0E2442;
 }
+
 
 header nav ul li a:hover {
     font-size: 21px;
@@ -187,6 +192,7 @@ footer{
     align-items: center;
     background-color: #FAFBF9;
     border-radius: 10px;
+    height: 200px;
 }
 
 footer ul li{
@@ -196,4 +202,86 @@ footer ul li{
 footer span{
     display: flex;
     justify-content: center;
+    
 }
+
+footer span img{
+    width: 30px;
+    height: auto;
+}
+
+footer ul li{
+    padding: 6px;
+}
+
+footer ul li a{
+    padding: 10px;
+}
+
+
+.Cont-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+    background-color:#1E395E;
+    padding: 20px 0 20px 0;
+}
+
+
+.nav-footer{
+   
+   display: inline;
+
+}
+
+.nav-footer a{
+    color: white;
+}
+
+.nav-footer ul li{
+    list-style: none;
+    display: inline;
+    transition: .5s;
+
+    &&:hover{
+        border-radius: 8px;
+        padding: 9px;
+        font-size: 17px;
+        background-color: #0E2442;
+    }
+}
+
+.Cont-Things-footer {
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cont-Things-footer a{
+    padding: 10px;
+    color: #FAFBF9;
+    border-radius: 10px;
+    background-color: #0E2442;
+    transition:  0.5s;
+    text-decoration: none;
+    &&:hover{
+        background-color: #1C3A59;
+        padding: 13px;
+    }
+}
+
+.Cont-Things-footer span{
+    
+    padding: 10px 0 0 0px;
+
+
+}
+
+.footer-things{
+    padding: 40px;
+}
+

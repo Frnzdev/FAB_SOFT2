@@ -56,10 +56,6 @@ header nav ul li a {
 
 
 header nav ul li a:hover {
-    background-color: #0E2442;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
     font-size: 21px;
     text-decoration: underline;
 }
@@ -103,8 +99,9 @@ input{
     padding: 7px;
 
     &&:hover{
-        background-color: #06214e;
+        background-color: #06204e50;
         border: 1px solid #0E2442;
+        color: white ;
         
     }
 }
