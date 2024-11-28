@@ -48,20 +48,27 @@ header nav li {
 }
 
 header nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     transition: 0.5s;
     color: #0E2442;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 header nav ul li a:hover {
-    font-size: 21px;
+    background-color: #1C3A59;
+    color: #FAFBF9;
+
     text-decoration: underline;
 }
 
 .content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 .cont-info {
